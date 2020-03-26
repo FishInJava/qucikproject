@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="quickproject-common" />
-        <module name="quickproject-controller" />
+        <module name="quickproject" />
         <module name="quickproject-job" />
         <module name="quickproject-mq" />
         <module name="quickproject-service" />
-        <module name="quickproject" />
+        <module name="quickproject-controller" />
       </profile>
     </annotationProcessing>
   </component>
