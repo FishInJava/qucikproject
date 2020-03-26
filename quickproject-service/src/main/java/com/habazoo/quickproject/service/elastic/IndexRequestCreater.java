@@ -12,10 +12,9 @@ import java.util.Map;
 /**
  * @author hbz
  * @version 1.0.0
- * @Description TODO
+ * @Description IndexRequest工厂 + builder
  * @createTime 2020年03月25日 17:05:00F
  */
-//工厂 + builder
 public class IndexRequestCreater {
     /**
      * *自动创建index
