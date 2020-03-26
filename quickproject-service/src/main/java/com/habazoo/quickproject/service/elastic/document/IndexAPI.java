@@ -1,4 +1,4 @@
-package com.habazoo.quickproject.service.elastic.api;
+package com.habazoo.quickproject.service.elastic.document;
 
 import com.habazoo.quickproject.service.elastic.IndexRequestCreater;
 import org.elasticsearch.action.index.IndexRequest;

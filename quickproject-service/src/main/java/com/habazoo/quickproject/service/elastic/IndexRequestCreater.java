@@ -68,7 +68,7 @@ public class IndexRequestCreater {
         }
 
         public IndexRequest creat(){
-            return indexRequest;
+            return this.indexRequest;
         }
 
         public IndexRequestBuilder data(String jsonStr){
@@ -85,7 +85,6 @@ public class IndexRequestCreater {
             this.indexRequest.source(builder);
             return this;
         }
-
 
         public IndexRequestBuilder routing(String routing){
             indexRequest.routing(routing);
@@ -118,7 +117,6 @@ public class IndexRequestCreater {
          * @return
          */
         public IndexRequestBuilder refreshPolicy(WriteRequest.RefreshPolicy policy){
-
             indexRequest.setRefreshPolicy(policy);
             return this;
         }
