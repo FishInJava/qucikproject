@@ -1,4 +1,4 @@
-package com.habazoo.quickproject.service.elastic;
+package com.habazoo.quickproject.service.elastic.document.factory;
 
 import org.elasticsearch.action.DocWriteRequest;
 import org.elasticsearch.action.index.IndexRequest;

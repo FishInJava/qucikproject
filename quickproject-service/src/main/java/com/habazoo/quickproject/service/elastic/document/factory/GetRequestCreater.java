@@ -1,4 +1,4 @@
-package com.habazoo.quickproject.service.elastic;
+package com.habazoo.quickproject.service.elastic.document.factory;
 
 import org.elasticsearch.action.get.GetRequest;
 import org.elasticsearch.index.VersionType;

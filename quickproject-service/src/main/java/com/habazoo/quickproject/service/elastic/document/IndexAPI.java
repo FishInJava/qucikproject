@@ -1,6 +1,6 @@
 package com.habazoo.quickproject.service.elastic.document;
 
-import com.habazoo.quickproject.service.elastic.IndexRequestCreater;
+import com.habazoo.quickproject.service.elastic.document.factory.IndexRequestCreater;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.client.RestHighLevelClient;
